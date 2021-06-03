@@ -8,6 +8,8 @@
 
 .innerbackground{
     width: 60%;
+    border-radius: 15px;
+    border: 1px, transparent
 }
 
 .center{
@@ -81,6 +83,10 @@
     padding-bottom: 5%;
 }
 
-.span-3{
-    width: 30%;
+.roundedborder-up{
+    border-radius: 25px 25px 0 0;
+}
+
+.roundedborder-down{
+    border-radius: 0 0 25px 25px;
 }
